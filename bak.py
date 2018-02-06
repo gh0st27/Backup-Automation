@@ -110,7 +110,7 @@ class Bak:
 
 			msg = MIMEText(fp.read())
 			s = smtplib.SMTP('smtp.gmail.com',587) #add your mail server ip/name and port number
-			s.starttls()
+			s.starttls()				#start tls mechanism
 			s.login('emailID','Passwor')
 
 			msg['Subject'] = 'the backup logs are:'
