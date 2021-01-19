@@ -1,5 +1,5 @@
-This is basic python code which help you to take backup of any data on local as well as remote location like NAS etc.
-code also have mail function to send the logs by mail to mail address
-mount and umount function is used for mounting NFS server share location on local drive to copy backup data on remote location.
-Feel free to use this code for reference purpose
+The script was orginally developed to take local gitlab instance backup to remote location mostly on network attached storage (NAS) & send the logs to the recipients using mail function.
+Later it was modified to get backup of any files/folders on Local network conected to NFS server & remote located NAS>
+
+Note: This code is no more maintained.
 
